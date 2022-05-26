@@ -14,7 +14,7 @@ driver = webdriver.Chrome(service=s)
 
 #---------------------------------------------------------------
 #--------------------Problem Attributes-------------------------
-codePath = "//div[@class='CodeMirror-code']/div/pre/*[text()]"
+codePath = "//div[@class='CodeMirror-code']/div/pre"
 titlePath = "//div[@data-cy='question-title']"
 contentPath = "//div[@data-cy='description-content']/div[1]/div[@class='content__u3I1 question-content__JfgR']/*[text()]"
 diffPath = "//div[@data-key='description-content']/div/div/div[2]/div"
